@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export VENDOR=motorola
-export DEVICE=moto_msm8960
+export VENDOR=casio
+export DEVICE=gzone
 
 ../qcom-common/extract-files.sh $@

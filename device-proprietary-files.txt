@@ -1,6 +1,4 @@
 # Bins
-bin/ap_gain.bin
-bin/ap_gain_mmul.bin
 bin/mpdecision
 bin/netmgrd
 bin/qdumpd
