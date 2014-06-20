@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
@@ -112,7 +112,7 @@ PRODUCT_COPY_FILES += \
     device/casio/qcom-common/idc/atmxt-i2c.idc:recovery/root/vendor/firmware/atmxt-i2c.idc \
     vendor/casio/gzone/proprietary/etc/firmware/atmxt-r2.tdat:recovery/root/vendor/firmware/atmxt-r2.tdat
 
-# Include 960x540 boot animation in the zip
+# Include 480x800 boot animation in the zip
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bootanimation/480.zip:system/media/480.zip
 
